@@ -26,7 +26,7 @@
 
       <?php
 
-        $relatedPrograms = get_field('related_program');
+        $relatedPrograms = get_field('related_programs');
 
         if ($relatedPrograms) {
           echo '<hr class="section-break">';
